@@ -7,9 +7,9 @@ function Home() {
       <p>
         {" "}
         Welcome to my website. Please feel free to read more{" "}
-        <a href="/about">about me</a>, or you can check out my{" "}
+        <a href="/about/">about me</a>, or you can check out my{" "}
         {/* <a href="/resume">resume</a>,  */}
-        <a href="/projects">projects</a>, or <a href="/connect">contact</a> me.
+        <a href="/projects/">projects</a>, or <a href="/connect">contact</a> me.
       </p>
       {/* <div className="display_picture">Insert picture here</div> */}
     </div>
