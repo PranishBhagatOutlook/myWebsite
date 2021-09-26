@@ -18,10 +18,10 @@ function App() {
       <div className="App">
         <Navbar />
         <Switch>
-          {/* <Route exact path="/" component={Home}></Route>
-          <Route path="/home" component={Home}></Route> */}
+          <Route exact path="/" component={Home}></Route>
+          <Route path="/home" component={Home}></Route>
           <Route path="/about" component={About}></Route>
-          {/* <Route path="/projects" component={Project}></Route>
+          <Route path="/projects" component={Project}></Route>
           <Route path="/blog" component={Blog}></Route>
           <Route path="/connect" component={Connect}></Route>
           <Route path="/music" component={Music}></Route>
@@ -30,7 +30,7 @@ function App() {
           <Route path="/metronome" component={Metronome}></Route>
           <Route path="*">
             <NotFound />
-          </Route> */}
+          </Route>
         </Switch>
       </div>
     </Router>

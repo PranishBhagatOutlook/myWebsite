@@ -10,13 +10,13 @@ function Navbar() {
   return (
     <nav variant="pills" activeKey="/home" className="flex-column">
       <ul className="nav-links">
-        {/* <Link style={navStyle} to="/home">
+        <Link style={navStyle} to="/home">
           <li>HOME</li>
-        </Link> */}
+        </Link>
         <Link style={navStyle} to="/about">
           <li>ABOUT</li>
         </Link>
-        {/* <Link style={navStyle} to="/projects">
+        <Link style={navStyle} to="/projects">
           <li>PROJECTS</li>
         </Link>
         <Link style={navStyle} to="/blog">
@@ -30,7 +30,7 @@ function Navbar() {
         </Link>
         <Link style={navStyle} to="/photos">
           <li>PHOTOS</li>
-        </Link> */}
+        </Link>
         {/* <Link style={navStyle} to="/calculator">
           <li>CALCULATOR</li>
         </Link>
